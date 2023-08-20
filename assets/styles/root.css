@@ -1,0 +1,16 @@
+:root{
+    --preto-100 : #464646;
+    --preto-50  : #A2A2A2;
+    --azul-100  : #2A7AE4;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
