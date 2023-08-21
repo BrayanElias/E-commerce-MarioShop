@@ -35,7 +35,7 @@
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1rem; /* 114.286% */
+    line-height: 1rem; 
 }
 .header__login{
     display: flex;
@@ -56,12 +56,12 @@
     display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width : 0px) {
     .header__container{
-    width: 22.5rem;
-    height: 4.5rem;
-    justify-content: space-between;
-    padding: 1rem;
+        width: 22.5rem;
+        height: 4.5rem;
+        justify-content: space-between;
+        padding: 1rem;
     }
     .header__search {
         display: none;
@@ -75,12 +75,119 @@
         height: 1.75rem;
     }
     .header__login{
-    width: 8.3125rem;
-    padding: 0.75rem 1rem;
-    justify-content: center;
-    align-items: center;
+        width: 8.3125rem;
+        padding: 0.75rem 1rem;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        line-height: normal;
     }
     .header_search-after{
         display: flex;
     }
 }
+
+@media screen and (min-width : 480px) {
+    .header__container{
+        width: 48rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        padding: 1rem 2rem;
+    }
+    .header__logo-busqueda{
+        width: 25.25rem;
+        height: 2.5rem;
+        gap: 2rem;
+        overflow: hidden;
+        align-items: center;
+    }
+    .header__search {
+        display: flex;
+        width: 17rem;
+        padding: 0.5rem 1rem;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .header__logo-busqueda .logo{
+        width: 6.25rem;
+        height: 1.75rem;
+    }
+    .header__login{
+        display: flex;
+        width: 10.375rem;
+        padding: 0.75rem 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .header_search-after{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 71rem;
+        margin: 0 auto;
+        padding: 2rem 0rem;
+    }
+    .header__logo-busqueda{
+        display: flex;
+        width: 37.6rem;
+        height: 3.13rem;
+        align-items: center;
+        gap: 2rem;
+    }
+    .header__search{
+        display: flex;
+        justify-content: space-between;
+        width: 24.5625rem;
+        padding: 0.5rem 1rem;
+        align-items: center;
+        gap: 0.5rem;
+        border-radius: 1.25rem;
+        background-color: #F5F5F5;
+    }
+    .header__logo-busqueda .logo{
+        width: 11rem;
+        height: 3.125rem;
+    }
+    .search{
+        border: none;
+        background-color: #F5F5F5;
+        outline: none;
+        color: var(--preto-50, #A2A2A2);
+        font-family: Raleway;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1rem; 
+    }
+    .header__login{
+        display: flex;
+        width: 11.375rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--azul-100, #2A7AE4);
+        color: var(--azul-100, #2A7AE4);
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #FFFFFF;
+    }
+    .header_search-after{
+        display: none;
+    }
+}
+
+
+
