@@ -133,20 +133,6 @@
         gap: 0.5rem;
         align-items: center;
     }
-    .product-text-button{
-        display: flex;
-        width: 4.0625rem;
-        height: 1.1875rem;
-        color: var(--azul-100, #2A7AE4);
-        font-family: Raleway;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        border: none;
-        background-color: #F5F5F5;
-    }
-    
     .product__flex{ 
         display: grid;
         grid-template-rows: 3fr;
@@ -154,5 +140,15 @@
         gap: 1rem;
         margin: 1rem auto;
     }
-    
 }
+
+@media screen and (min-width : 480px) {
+    .product__flex{ 
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 1rem;
+        margin: 1rem auto;
+        padding-left: 0.5rem;
+    }
+}
+
