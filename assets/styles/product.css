@@ -1,0 +1,191 @@
+.productos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 4rem;
+}
+.productos__container{
+    width: 71rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.productos__header{
+    width: 70.8125rem;
+    height: 2.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.productos__header-title{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.productos__header-button{
+    width: 6.0625rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+}
+.product-text-button{
+    display: flex;
+    width: 4.0625rem;
+    height: 1.1875rem;
+    color: var(--azul-100, #2A7AE4);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.product__flex{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+.product__container{
+    width: 11rem;
+    height: 15.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    overflow: hidden;
+}
+.product__text{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.product__price{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.product__button{
+    color: var(--azul-100, #2A7AE4);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    background-color: white;
+}
+
+@media screen and (min-width : 0) {
+    .productos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        gap: 4rem;
+    }
+    .productos__container{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .productos__header{
+        width: 20.5rem;
+        height: 1.625rem;
+        display: flex;
+        margin: 0 auto;
+    }
+    .productos__header-title{
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .productos__header-button{
+        width: 6.0625rem;
+        height: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .product-text-button{
+        display: flex;
+        width: 4.0625rem;
+        height: 1.1875rem;
+        color: var(--azul-100, #2A7AE4);
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        background-color: #F5F5F5;
+    }
+    
+    .product__flex{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-rows: 3fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 1rem auto;
+    }
+    .product__container{
+        width: 11rem;
+        height: 15.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        overflow: hidden;
+    }
+    .product__text{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .product__price{
+        color: var(--preto-100, #464646);
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .product__button{
+        color: var(--azul-100, #2A7AE4);
+        font-family: Raleway;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        background-color: white;
+    }
+}
