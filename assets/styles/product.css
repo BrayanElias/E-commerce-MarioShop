@@ -100,8 +100,8 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         gap: 4rem;
     }
     .productos__container{
@@ -112,10 +112,12 @@
         flex-direction: column;
     }
     .productos__header{
-        width: 20.5rem;
+        width: 100%;
         height: 1.625rem;
         display: flex;
-        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
     }
     .productos__header-title{
         font-size: 1.375rem;
@@ -145,47 +147,12 @@
         background-color: #F5F5F5;
     }
     
-    .product__flex{
-        margin-top: 1rem;
+    .product__flex{ 
         display: grid;
         grid-template-rows: 3fr;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         margin: 1rem auto;
     }
-    .product__container{
-        width: 11rem;
-        height: 15.75rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
-        overflow: hidden;
-    }
-    .product__text{
-        color: var(--preto-100, #464646);
-        font-family: Raleway;
-        font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-    .product__price{
-        color: var(--preto-100, #464646);
-        font-family: Raleway;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    .product__button{
-        color: var(--azul-100, #2A7AE4);
-        font-family: Raleway;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        border: none;
-        background-color: white;
-    }
+    
 }
