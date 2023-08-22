@@ -1,6 +1,7 @@
 .productos{
     padding: 4rem 0;
     background: var(--preto-05, #F5F5F5);
+    gap: 1rem;
 }
 .productos__header{
     width: 93%;
