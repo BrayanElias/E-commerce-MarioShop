@@ -54,6 +54,7 @@
     font-weight: 400;
     line-height: normal;
     background-color: #FFFFFF;
+    text-decoration: none;
     cursor: pointer;
 }
 .header__login:hover{
