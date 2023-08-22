@@ -82,7 +82,9 @@
     line-height: normal;
     background-color: #2A7AE4;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
+
 
 @media screen and (min-width : 0) {
     .footer{
@@ -119,15 +121,14 @@
         gap: 0.5rem;
         overflow: hidden;
     }
-    .rodapie{
-        width: 22.5rem;
+    /* .rodapie{
+        width: 100%;
         height: auto;
         padding: 2rem;
         background-color: #FFFFFF;
-
     }
     .rodapie__texto{
-        width: 14.3125rem;
+        width: 100%;
         height: 2.375rem;
         color: var(--preto-100, #464646);
         text-align: center;
@@ -137,5 +138,5 @@
         font-weight: 500;
         line-height: normal;
         margin: 0 auto;
-    }
+    } */
 }
