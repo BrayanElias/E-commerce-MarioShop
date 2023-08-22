@@ -84,6 +84,21 @@
     cursor: pointer;
     margin-bottom: 1rem;
 }
+.rodapie{
+    padding: 2rem;
+}
+.rodapie__texto{
+    width: 14.3125rem;
+    height: auto;
+    color: var(--preto-100, #464646);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+}
 
 
 @media screen and (min-width : 0) {
