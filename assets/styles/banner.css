@@ -127,6 +127,7 @@
         height: 10.625rem;
         gap: 1rem;
         top: 40%;
+        padding-left: 2rem;
     }
     .banner__titulo{
         font-size: 3.25rem;
