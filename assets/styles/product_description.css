@@ -1,0 +1,91 @@
+.product__description{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: auto;
+    padding: 4rem 0;
+}
+.product__description__container{
+    display: flex;
+    width: 71rem;
+    height: auto;
+    gap: 1rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.product__description__container img{
+    width: 50%;
+    height: auto;  
+    border-radius: 5%; 
+}
+.product__description__container__text{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem; 
+}
+.product__description__container__text h1{
+    width: 35rem;
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.product__description__container__text span{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.product__description__container__text p{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.productos__header{
+    width: 92%;  
+}
+
+@media screen and (min-width : 0) {
+    .product__description{
+        padding: 0;
+    }
+    .product__description__container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .product__description__container img{
+        width: 100%;
+        height: auto;  
+        border-radius: 0;
+    }
+    .product__description__container__text{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    .product__description__container__text h1{
+        width: 100%;
+        font-size: 1.375rem;
+    }
+    .product__description__container__text p{
+        text-align: justify;
+    }
+    .productos__header{
+        margin-bottom: 1rem;
+    }
+    .productos__header-title{
+        width: 100%;
+    }
+}
